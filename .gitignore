@@ -1,5 +1,6 @@
 HELP.md
-target/
+target/*
+!target/task14_spring_data-0.0.1-SNAPSHOT.jar
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
@@ -34,5 +35,3 @@ build/
 .mvn/
 mvnw
 mvnw.cmd
-
-library_db.sql
