@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Setter
 @Getter
 @Table(name = "books")
-@JsonIdentityInfo(generator = ObjectIdGenerators.IntSequenceGenerator.class)
+@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
